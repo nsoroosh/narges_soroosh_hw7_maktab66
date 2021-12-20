@@ -45,7 +45,7 @@ class Music extends Media{
     constructor(type,owner,year,sells,cost,time){
         super(type,year,sells,cost)
         this.time=time
-        this.musician=owner
+        this.singer=owner
     }
     
 }
@@ -54,3 +54,5 @@ const cleancode = new Book('book','Robert C. Martin',2009,'1milion','21.66$',431
 console.log(cleancode)
 const Spider_Man = new Video('video','john watts', 2021,2000000,100,'2h 28min','tom holland',9.1)
 console.log(Spider_Man)
+const i_see_fire= new Music('music','ed sheeran' , '8 years ago','1billion',100,'5:16min')
+console.log(i_see_fire)
