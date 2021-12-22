@@ -9,6 +9,20 @@
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Source Code Pro', monospace;
 font-family: 'Source Sans Pro', sans-serif; */
+.menu{
+    width: 60%;
+    margin: 30px auto;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
 h1 , h2 , span  {
     color: white;
     font-family: 'Source Code Pro', monospace;
@@ -40,6 +54,9 @@ h3{
 }
 .icon{
     width: 50px;
+}
+a.icon{
+    display: none;
 }
 .hello{
     width: 80%;
@@ -88,6 +105,19 @@ h3{
     }
     .item{
         width: 300px;
+    }
+    #myLinks{
+        display: none;
+    }
+    a{
+        display: block;
+    }
+    a.icon{
+        display: block;
+        
+    }
+    .menu{
+        position: relative;
     }
 }
 /* mobile mode */
